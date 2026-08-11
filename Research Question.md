@@ -1,0 +1,1 @@
+Bagaimana agen otonom persisten dapat mempelajari model dinamika lingkungan secara berkelanjutan dari pengalaman interaksinya, serta mempertahankan dan menggunakan kembali model yang telah dipelajari pada siklus operasional berikutnya?
