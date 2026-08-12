@@ -1,0 +1,67 @@
+========================================================================
+ENTITY CORE — V0.5.1
+500-CYCLE BASELINE SUMMARY
+========================================================================
+
+Alive          : True
+Total cycles   : 500
+Simulated days : 101
+LR cells       : 24
+
+Initial State
+  {'hunger': 60.0, 'thirst': 60.0, 'energy': 60.0, 'curiosity': 50.0, 'alive': True}
+
+Final State
+  Hunger       :   22.0
+  Thirst       :   37.5
+  Energy       :  100.0
+  Curiosity    :   51.5
+
+Decision Statistics
+  Explore      : 5
+  Exploit      : 495
+  Fallback     : 0
+
+Action Usage
+  eat     : 11
+  drink   : 12
+  sleep   : 409
+  work    : 67
+  idle    : 1
+
+Context Summary
+  Unique contexts visited : 5
+  Context changes          : 157
+  Context change rate      : 0.314
+
+Visited Contexts
+  (LOW,LOW,HIGH,HIGH) : 410
+  (LOW,LOW,HIGH,LOW) : 67
+  (LOW,HIGH,HIGH,HIGH) : 12
+  (HIGH,LOW,HIGH,HIGH) : 8
+  (HIGH,HIGH,HIGH,HIGH) : 3
+
+Most Common Context Transitions
+  (LOW,LOW,HIGH,HIGH) -> (LOW,LOW,HIGH,HIGH) : 343
+  (LOW,LOW,HIGH,HIGH) -> (LOW,LOW,HIGH,LOW) : 67
+  (LOW,LOW,HIGH,LOW) -> (LOW,LOW,HIGH,HIGH) : 48
+  (LOW,HIGH,HIGH,HIGH) -> (LOW,LOW,HIGH,HIGH) : 12
+  (LOW,LOW,HIGH,LOW) -> (LOW,HIGH,HIGH,HIGH) : 9
+  (LOW,LOW,HIGH,LOW) -> (HIGH,LOW,HIGH,HIGH) : 8
+  (HIGH,LOW,HIGH,HIGH) -> (LOW,LOW,HIGH,HIGH) : 8
+  (HIGH,HIGH,HIGH,HIGH) -> (LOW,HIGH,HIGH,HIGH) : 3
+  (LOW,LOW,HIGH,LOW) -> (HIGH,HIGH,HIGH,HIGH) : 2
+
+Evidence Maturity by Selected Action
+  eat     : uses=   9 relations=  36 support=1.000..6.033 mean=3.146 confidence=0.667..0.876 mean=0.781
+  drink   : uses=  11 relations=  44 support=1.000..8.624 mean=5.104 confidence=0.667..0.906 mean=0.837
+  sleep   : uses= 408 relations=1624 support=1.000..20.000 mean=18.329 confidence=0.612..0.955 mean=0.913
+  work    : uses=  66 relations= 264 support=1.000..19.323 mean=14.437 confidence=0.667..0.953 mean=0.926
+  idle    : no known relation selected
+
+Trace Files
+  Raw trace   : baseline_500_trace.json
+  Summary     : baseline_500_summary.txt
+  Records     : 500
+
+========================================================================

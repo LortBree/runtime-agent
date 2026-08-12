@@ -1,0 +1,86 @@
+========================================================================
+ENTITY CORE — V0.5.3
+500-CYCLE BASELINE SUMMARY
+========================================================================
+
+Alive          : True
+Total cycles   : 500
+Simulated days : 101
+LR cells       : 40
+
+Initial State
+  {'hunger': 60.0, 'thirst': 60.0, 'energy': 60.0, 'curiosity': 50.0, 'alive': True}
+
+Final State
+  Hunger       :    0.0
+  Thirst       :    0.0
+  Energy       :  100.0
+  Curiosity    :   94.0
+
+Decision Statistics
+  Explore      : 116 (23.2%)
+  Exploit      : 34 (6.8%)
+  Neutral      : 350 (70.0%)
+  Fallback     : 0 (0.0%)
+
+Action Usage
+  eat     : 43
+  drink   : 361
+  sleep   : 40
+  work    : 28
+  idle    : 28
+
+Exploration Action Usage
+  eat     : 24
+  drink   : 26
+  sleep   : 10
+  work    : 28
+  idle    : 28
+
+Neutral Action Usage
+  eat     : 13
+  drink   : 326
+  sleep   : 11
+  work    : 0
+  idle    : 0
+
+Exploit Action Usage
+  eat     : 6
+  drink   : 9
+  sleep   : 19
+  work    : 0
+  idle    : 0
+
+Regime Quality
+  Mean exploration novelty : 0.43642702009117884
+  Max exploration novelty  : 1.000000
+  Min exploration novelty  : 0.250086
+  Mean neutral harm        : 0.0
+  Min neutral harm         : 0.000000
+
+Context Statistics
+  Unique contexts : 4
+  Context changes : 4
+  Change rate     : 0.800
+
+Visited Contexts
+  (LOW,LOW,HIGH,HIGH) : 493
+  (HIGH,LOW,HIGH,HIGH) : 3
+  (LOW,LOW,HIGH,LOW) : 3
+  (HIGH,HIGH,HIGH,HIGH) : 1
+
+Most Common Context Transitions
+  (LOW,LOW,HIGH,HIGH) -> (LOW,LOW,HIGH,HIGH) : 492
+  (HIGH,LOW,HIGH,HIGH) -> (HIGH,LOW,HIGH,HIGH) : 2
+  (LOW,LOW,HIGH,LOW) -> (LOW,LOW,HIGH,LOW) : 2
+  (HIGH,HIGH,HIGH,HIGH) -> (HIGH,LOW,HIGH,HIGH) : 1
+  (HIGH,LOW,HIGH,HIGH) -> (LOW,LOW,HIGH,HIGH) : 1
+  (LOW,LOW,HIGH,HIGH) -> (LOW,LOW,HIGH,LOW) : 1
+  (LOW,LOW,HIGH,LOW) -> (LOW,LOW,HIGH,HIGH) : 1
+
+Output Files
+  Trace   : baseline_053_trace.json
+  Summary : baseline_053_summary.txt
+  Records : 500
+
+========================================================================
