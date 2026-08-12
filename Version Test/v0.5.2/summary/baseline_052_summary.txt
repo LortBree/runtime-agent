@@ -1,0 +1,86 @@
+========================================================================
+ENTITY CORE — V0.5.2
+500-CYCLE BASELINE SUMMARY
+========================================================================
+
+Alive          : True
+Total cycles   : 500
+Simulated days : 101
+LR cells       : 40
+
+Initial State
+  {'hunger': 60.0, 'thirst': 60.0, 'energy': 60.0, 'curiosity': 50.0, 'alive': True}
+
+Final State
+  Hunger       :    2.0
+  Thirst       :    2.5
+  Energy       :   54.0
+  Curiosity    :   99.5
+
+Decision Statistics
+  Explore      : 397
+  Exploit      : 103
+  Fallback     : 0
+
+Score Regime
+  Positive     : 103
+  Zero         : 0
+  Negative     : 0
+
+Action Usage
+  eat     : 101
+  drink   : 104
+  sleep   : 98
+  work    : 98
+  idle    : 99
+
+Zero-Score Decisions
+  eat     : 0
+  drink   : 0
+  sleep   : 0
+  work    : 0
+  idle    : 0
+
+Exploration Action Usage
+  eat     : 81
+  drink   : 82
+  sleep   : 37
+  work    : 98
+  idle    : 99
+
+Exploration Reasons
+  no positive current-context score; selected by evidence novelty: 397
+
+Context Statistics
+  Unique contexts : 4
+  Context changes : 4
+  Change rate     : 0.008
+
+Visited Contexts
+  (LOW,LOW,HIGH,HIGH) : 493
+  (HIGH,LOW,HIGH,HIGH) : 3
+  (LOW,LOW,HIGH,LOW) : 3
+  (HIGH,HIGH,HIGH,HIGH) : 1
+
+Most Common Context Transitions
+  (LOW,LOW,HIGH,HIGH) -> (LOW,LOW,HIGH,HIGH) : 492
+  (HIGH,LOW,HIGH,HIGH) -> (HIGH,LOW,HIGH,HIGH) : 2
+  (LOW,LOW,HIGH,LOW) -> (LOW,LOW,HIGH,LOW) : 2
+  (HIGH,HIGH,HIGH,HIGH) -> (HIGH,LOW,HIGH,HIGH) : 1
+  (HIGH,LOW,HIGH,HIGH) -> (LOW,LOW,HIGH,HIGH) : 1
+  (LOW,LOW,HIGH,HIGH) -> (LOW,LOW,HIGH,LOW) : 1
+  (LOW,LOW,HIGH,LOW) -> (LOW,LOW,HIGH,HIGH) : 1
+
+Evidence Maturity by Selected Action
+  eat     : uses=  98 relations= 314 support=1.000..19.869 mean=15.755 confidence=0.600..0.954 mean=0.915
+  drink   : uses= 100 relations= 323 support=1.000..19.869 mean=15.357 confidence=0.600..0.954 mean=0.908
+  sleep   : uses=  97 relations= 352 support=1.000..19.862 mean=15.079 confidence=0.600..0.954 mean=0.881
+  work    : uses=  97 relations= 337 support=1.000..19.862 mean=15.286 confidence=0.601..0.954 mean=0.912
+  idle    : uses=  98 relations= 392 support=1.000..19.869 mean=16.148 confidence=0.667..0.954 mean=0.935
+
+Output Files
+  Trace   : baseline_052_trace.json
+  Summary : baseline_052_summary.txt
+  Records : 500
+
+========================================================================
